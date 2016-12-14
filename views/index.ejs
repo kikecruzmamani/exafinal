@@ -1,0 +1,18 @@
+<h3>Bienvenido a  <%= title %></h3>
+<p></p><p></p>
+<table border="10" class="centrada" id="table" style="margin: 0 auto">
+   <tr>
+       <td bgcolor="red">id</td>
+       <td bgcolor="red">Tipo Reclamo</td>
+       <td bgcolor="red">Observacion</td>
+       <td bgcolor="red">Fecha</td>
+    </tr> 
+<% var i; for(i=0; i< reclamos.length; i++) { %>
+   <tr>
+       <td bgcolor="red"><%= i %></td>
+       <td bgcolor="red"><%= reclamos[i].tipoReclamo %></td>
+       <td bgcolor="red"><%= reclamos[i].observacion %></td>
+       <td bgcolor="red"><%= reclamos[i].fecha %></td>
+    </tr>   
+<% } %>
+</table>

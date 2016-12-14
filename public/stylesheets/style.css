@@ -1,0 +1,91 @@
+body
+{
+	background-color:#DCDCDC;
+	font-family: "Helvetica",arial;
+	width: 960;
+	margin: 0 auto;
+	border-radius: 20px;
+	padding: 20px;
+
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin-right: 20px;
+	color:#1d1d1d;
+}
+# page-wrap{
+	margin: 20px;
+    background: #FF8C00;
+}
+a
+{
+	padding: 20px;
+}
+h2
+{
+	width: 600px;
+	height: 50px;
+	background: #FF8C00;
+	margin: 0 auto;
+	text-align:left;
+	border-radius: 20px;
+	padding: 5px;
+	box-shadow: 0px 0px 0px;
+	text-align: center;
+
+}
+h3
+{
+	width: 300px;
+	height: 50px;
+	background: #FF8C00;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+table
+{
+	table-layout:#000FFF;
+	text-align: center;
+	padding: 5px;
+
+
+}
+#tipoReclamo
+{
+	width: 200px;
+	height: 50px;
+	background: #FF8C00;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#h1
+{
+	text-align: center;
+	margin: 0 auto;
+}
+#n1
+{
+	text-align: left;
+	margin: 0 auto;
+}
+#rel
+{
+		text-align: left;
+	margin: 0 auto
+}
+#f1
+{
+		text-align: left;
+	margin: 0 auto
+	background:#DCDCDC;
+}
+#tb2
+{
+	text-align: left;
+	padding: 10px;
+
+}
